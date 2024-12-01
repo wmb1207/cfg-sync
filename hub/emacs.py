@@ -93,3 +93,4 @@ def start_emacs_service(template_path: str) -> str:
     except subprocess.CalledProcessError as err:
         print(err.stderr)
         return err.stderr
+ 
