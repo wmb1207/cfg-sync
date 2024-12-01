@@ -1,4 +1,4 @@
-from valhalla.app import main
+from hub.app import main
 
 if __name__ == "__main__":
     main()

@@ -8,3 +8,23 @@ wheels/
 
 # Virtual environments
 .venv
+
+# Emacs files
+*.elc                    # Compiled Emacs Lisp files
+*.class                  # Compiled Java files
+# Backup files
+*~                       # Backup files created by Emacs
+.#*                      # Auto-save files
+# Desktop files
+.desktop                 # Emacs desktop files
+# Custom directories
+/.emacs.d/              # Emacs configuration directory
+/.cask/                 # Cask dependency directory
+/.local/                 # Local packages
+# Org-mode
+*.org~                   # Org-mode backup files
+# Other
+*.log                    # Log files
+
+# Ignore temporary files
+*.tmp                    # Temporary files
